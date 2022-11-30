@@ -1,0 +1,23 @@
+.list {
+    width: 30vw;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .deleteBtn {
+    padding: 5px 10px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 300ms;
+  }
+  
+  .deleteBtn:hover {
+    background-color: rgb(68, 68, 68);
+  }
+  

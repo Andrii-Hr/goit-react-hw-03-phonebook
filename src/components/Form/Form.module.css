@@ -1,0 +1,30 @@
+.form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .input {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .submit {
+    padding: 5px 10px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 300ms;
+  }
+  
+  .submit:hover {
+    background-color: rgb(68, 68, 68);
+  }
